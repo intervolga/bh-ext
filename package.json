@@ -1,0 +1,45 @@
+{
+  "name": "@intervolga/bh-ext",
+  "version": "1.0.0",
+  "description": "Extended BH template engine with custom BEM class generator",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha -u bdd -R spec --recursive test/",
+    "lint": "eslint index.js",
+    "test": "npm run lint && npm run mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intervolga/bh-ext.git"
+  },
+  "keywords": [
+    "bh"
+  ],
+  "author": "Shkarupa Alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intervolga/bh-ext/issues"
+  },
+  "homepage": "https://github.com/intervolga/bh-ext#readme",
+  "peerDependencies": {
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "bh": "^4.2.1",
+    "node-eval": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.x",
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.4.2"
+  },
+  "files": [
+    "index.js",
+    "README",
+    "LICENSE"
+  ]
+}
