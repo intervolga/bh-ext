@@ -38,6 +38,7 @@
     "mocha": "^3.4.2"
   },
   "files": [
+    "lib",
     "index.js",
     "README",
     "LICENSE"
