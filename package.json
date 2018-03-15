@@ -21,9 +21,6 @@
     "url": "https://github.com/intervolga/bh-ext/issues"
   },
   "homepage": "https://github.com/intervolga/bh-ext#readme",
-  "peerDependencies": {
-    "webpack": "^4.0.0"
-  },
   "dependencies": {
     "bh": "^4.2.1",
     "node-eval": "^1.1.1"
