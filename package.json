@@ -1,6 +1,6 @@
 {
   "name": "@intervolga/bh-ext",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Extended BH template engine with custom BEM class generator",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,6 @@
     "url": "https://github.com/intervolga/bh-ext/issues"
   },
   "homepage": "https://github.com/intervolga/bh-ext#readme",
-  "peerDependencies": {
-    "webpack": "^3.0.0"
-  },
   "dependencies": {
     "bh": "^4.2.1",
     "node-eval": "^1.1.1"
