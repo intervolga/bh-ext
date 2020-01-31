@@ -1,6 +1,6 @@
 {
   "name": "@intervolga/bh-ext",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Extended BH template engine with custom BEM class generator",
   "main": "dist/bh.min.js",
   "scripts": {
