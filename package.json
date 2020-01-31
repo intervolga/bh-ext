@@ -1,11 +1,12 @@
 {
   "name": "@intervolga/bh-ext",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Extended BH template engine with custom BEM class generator",
-  "main": "index.js",
+  "main": "dist/bh.min.js",
   "scripts": {
+    "build": "webpack --mode production",
     "mocha": "mocha -u bdd -R spec --recursive test/",
-    "lint": "eslint index.js",
+    "lint": "eslint lib/bh.js",
     "test": "npm run lint && npm run mocha"
   },
   "repository": {
@@ -23,26 +24,24 @@
   "homepage": "https://github.com/intervolga/bh-ext#readme",
   "dependencies": {
     "bh": "^4.2.1",
-    "node-eval": "^1.1.1"
+    "node-eval": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "chai": "3.5.x",
-    "eslint": "^3.19.0",
-    "eslint-config-google": "^0.7.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "chai": "4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "expect.js": "^0.3.1",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.2",
-    "mocha": "^3.5.3"
+    "mocha": "^7.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "files": [
-    "lib",
-    "index.js",
+    "dist",
     "README",
     "LICENSE"
   ]
