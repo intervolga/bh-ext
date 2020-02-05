@@ -1,4 +1,4 @@
-var BH = require('../lib/bh');
+var BH = require('../dist/bh.min.js').BH;
 require('chai').should();
 
 describe('ctx.attr()', function() {
